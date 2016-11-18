@@ -125,7 +125,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: 500px center;
-  background-image: url("../img/header.png");
+  background-image: url("../img/header-compressed.png");
   text-align: center;
   color: white;
   background-repeat: no-repeat;
