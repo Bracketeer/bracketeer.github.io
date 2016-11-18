@@ -378,7 +378,7 @@ textarea {
   padding-right: 0; }
 
 .fa-arrow-down {
-  animation: 1.5s pulse ease-in-out infinite;
+  animation: 2s pulse ease-in-out infinite;
   animation-direction: alternate-reverse; }
 
 #brent svg {
@@ -419,14 +419,15 @@ textarea {
     transform: rotateX(90deg); } }
 @keyframes pulse {
   0% {
-    color: #b81900; }
+    color: #d21d00; }
   100% {
-    color: #FF3E1F; } }
+    color: #FF3E1F;
+    text-shadow: 1px 1px 5px #d21d00; } }
 @keyframes pulse-background {
   0% {
     opacity: 1; }
   100% {
-    opacity: .85; } }
+    opacity: .8; } }
 @keyframes fadein {
   0% {
     opacity: 0; }

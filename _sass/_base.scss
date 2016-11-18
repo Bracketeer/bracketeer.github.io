@@ -437,7 +437,7 @@ textarea {
  padding-right: 0;
 }
 .fa-arrow-down{
-	animation: 1.5s pulse ease-in-out infinite;
+	animation: 2s pulse ease-in-out infinite;
 	animation-direction: alternate-reverse;
 }
 #brent{
@@ -492,10 +492,11 @@ textarea {
 }
 @keyframes pulse {
 	0%{
-		color: darken($theme-primary, 20%);
+		color: darken($theme-primary, 15%);
 	}
 	100%{
-		color: $theme-primary
+		color: $theme-primary;
+		text-shadow: 1px 1px 5px darken($theme-primary, 15%);
 	}
 }
 @keyframes pulse-background {
@@ -503,7 +504,7 @@ textarea {
 		opacity: 1;
 	}
 	100%{
-		opacity: .85;
+		opacity: .8;
 	}
 }
 @keyframes fadein {
