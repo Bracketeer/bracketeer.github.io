@@ -320,7 +320,8 @@ body {
   width: 100%;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 20px; }
+  margin-top: 20px;
+  text-transform: none; }
 
 textarea {
   padding: 10px;
@@ -331,8 +332,8 @@ textarea {
   margin-top: 20px;
   margin-bottom: 20px;
   height: 200px;
-  text-transform: uppercase;
-  font-weight: bold; }
+  font-weight: bold;
+  text-transform: none; }
 
 .btn-lg {
   width: 100%; }
