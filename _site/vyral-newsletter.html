@@ -1,0 +1,1439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+<style>
+  /* Basics */
+  body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #ffffff;
+  }
+  table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+  }
+  td {
+    padding: 0;
+  }
+  img {
+    border: 0;
+  }
+  .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  .webkit {
+    max-width: 600px;
+  }
+  .outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  .full-width-image img {
+    width: 95%;
+    max-width: 600px;
+    height: auto;
+  }
+  .full-width-image p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .inner {
+    padding: 10px;
+  }
+  p {
+    Margin: 0;
+    font-size: 14px;
+  }
+  .button a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a{
+    color: #124062;
+    text-decoration: none;
+  }
+  .h1 {
+    font-size: 28px !important;
+    font-weight: normal;
+    Margin-bottom: 20px;
+    /*Margin-top: 10px;*/
+		color: #124062;
+		text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .h2 {
+    font-size: 20px !important;
+    font-weight: normal;
+    Margin-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #124062;
+  }
+  .h3{
+    font-size: 16px !important;
+    Margin-bottom: 12px;
+    font-weight: bold;
+  }
+  /* One column layout */
+  .one-column .contents {
+    text-align: left;
+  }
+  .one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
+  }
+  /*Two column layout*/
+  .two-column {
+    text-align: center;
+    font-size: 0;
+  }
+  .two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .contents {
+    width: 100%;
+  }
+  .two-column .contents {
+    font-size: 14px;
+    text-align: left;
+  }
+  .two-column {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+  }
+  .two-column .text {
+    padding-top: 10px;
+  }
+  /*Three column layout*/
+  .three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .three-column .contents {
+    font-size: 14px;
+    text-align: center;
+  }
+  .three-column img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+  .three-column .text {
+    padding-top: 10px;
+  }
+  .header{
+    background: #124062;
+    color: #ffffff;
+    Margin-bottom: 30px;
+  }
+  .headerCTA{
+    padding-bottom: 10px
+  }
+  .footer{
+    background: #124062;
+    color: #ffffff;
+  }
+  table.button td{
+    background: #ff660f;
+    padding: 10px 30px;
+    color: #ffffff;
+    Margin: 10px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid #b0480b;
+  }
+  table.button td:hover{
+    background: #df590d !important;
+  }
+
+  table.secondary td {
+	  background: #ffffff !important;
+	  border-color: #d0d0d0;
+	  color: #124062;
+    width: 250px;
+	}
+
+	table.secondary td a {
+	  color: #124062;
+	}
+
+	table.secondary:hover td {
+	  background: #e2e2e2 !important;
+	  color: #124062;
+	}
+
+	table.secondary:hover td a,
+	table.secondary td a:visited,
+	table.secondary:active td a {
+	  color: #124062 !important;
+	}
+
+  hr {
+  color: #d9d9d9;
+  background-color: #d9d9d9;
+  height: 1px;
+  border: none;
+  Margin: 60px auto;
+  }
+  /* Left sidebar layout */
+  .left-sidebar {
+  text-align: center;
+      font-size: 0;
+  }
+  .left-sidebar .column {
+      width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .left-sidebar .left {
+      max-width: 300px;
+  }
+  .left-sidebar .right {
+      max-width: 300px;
+  }
+  .left-sidebar .img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+  }
+  .left-sidebar .contents {
+  font-size: 14px;
+      text-align: center;
+  }
+  /* Right sidebar layout */
+  .right-sidebar {
+    text-align: center;
+    font-size: 0;
+  }
+  .right-sidebar .column {
+      width: 100%;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .right-sidebar .left {
+      max-width: 200px;
+  }
+  .right-sidebar .right {
+      max-width: 400px;
+  }
+  .right-sidebar .img {
+      width: 100%;
+      max-width: 80px;
+      height: auto;
+  }
+  .right-sidebar .contents {
+      font-size: 14px;
+      text-align: center;
+  }
+  .panel {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    padding: 10px !important;
+    Margin-top: 10px;
+    Margin-left: 10px;
+    Margin-right: 10px;
+  }
+  .hangout {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    Margin-top: 60px;
+    padding-top: 40px;
+    Margin-bottom: 60px;
+    padding-bottom: 70px;
+  }
+  .spacer{
+    padding: 30px;
+  }
+  .urgent{
+    color: red;
+    font-size: 16px !important;
+  }
+  .footer{
+    color: #d8d8d8;
+    font-size: 12px !important;
+    padding: 10px;
+  }
+</style>
+</head>
+<body>
+    <center class="wrapper">
+      <!-- Header -->
+      <table class="wrapper header">
+        <tr>
+          <td>
+
+            <table class="outer" align="center">
+              <tr>
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+
+                          <table class="contents">
+                            <tr>
+                              <td>
+                                <center><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/vyral-logo.gif" width="200" alt="" /></center>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+
+                          <table class="contents">
+                            <tr>
+                              <td class="text header" align="center">
+                                <p class="headerCTA">Call us for a consultation:</p>
+
+                                <table class="button">
+                                  <tr>
+                                    <td>
+                                      <a href="tel:18003239974">
+                                        1-800-323-9974
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td>
+                  </tr>
+                  </table>
+                  <![endif]-->
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+
+        <!-- Marketing tip -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="full-width-image">
+                <p class="h1" align="center">How to Hire a Calling Assistant</p>
+                <a href="https://youtu.be/qmlGs4B1CVg" target="_blank">
+                  <center>
+                    <a href="https://youtu.be/Qftgafw9w4o" target="_blank">
+                      <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/marketing+tip+screenshots/Marketing-Tip-7.jpg" width="600" alt="Vyral Marketing Marketing Tip Image" />
+                    </a>
+                  </center>
+                <p align="center">In this marketing episode, you'll learn how to hire a calling assistant using online ads, assessments, auditioning during the interview process, and assessing the individual during the trial period.</p><br>
+
+                <table class="button secondary" align="center">
+                  <tr>
+                    <td>
+                      <a href="https://youtu.be/Qftgafw9w4o" target="_blank">
+                        Watch the video
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </table>
+          </tr>
+          </td>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Client Message -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer">
+            <tr>
+              <td class="one-column">
+                  <table width="100%">
+                      <tr>
+                          <td class="inner contents">
+                              <p class="h1" align="center">Weekly Client Message</p>
+                              <p class="h2" align="center">Gmail Unsubscribe and Promotions Folder</p>
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="right-sidebar" dir="rtl">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%" dir="rtl">
+                <tr>
+                <td width="100">
+                <![endif]-->
+                <table class="column left" dir="ltr">
+                    <tr>
+                        <td class="inner contents">
+                          <a href="http://www.getvyral.com/2015/11/vyral-marketing-client-message.html" target="_blank">
+                            <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/frank-klesitz-circle.jpg" width="180" alt="Frank Klesitz Image" />
+                          </a>
+                            <p>Frank Klesitz,<br>CEO Vyral Marketing</p>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="500">
+                <![endif]-->
+                <table class="column right" dir="ltr">
+                    <tr>
+                        <td class="inner contents">
+                          <p align="left">Clients,<br><br>
+                            If you use Gmail I’m sure you’ve noticed an “Unsubscribe” link at the top of many emails now. You also see a new “Promotions” folder where many of your promotional messages now go.<br><br>
+                            <b>I love it</b>. I spend a majority of my day in email as I’m sure you do, too.<br><br>
+                            Anything to decrease interruptions to my day the better. I get a mountain of email from vendors, salespeople, and businesses who don’t respect my inbox. I say, “Unsubscribe them!”<br><br>
+                            But how do these Gmail changes effect the email you’re sending with us?</p>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+            <tr>
+              <td class="one-column">
+                  <table width="100%" align="center">
+                      <tr>
+                          <td class="inner contents">
+
+                            <table class="button secondary" align="center">
+                              <tr>
+                                <td>
+                                  <a href="http://www.getvyral.com/2015/11/vyral-marketing-client-message.html" target="_blank">
+                                    Read this week's client message
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+
+                          </td>
+                      </tr>
+                  </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <hr>
+
+        <!-- Success Story -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="full-width-image">
+                <p class="h1" align="center">Successs Story</p>
+                <p class="h2" align="center">How Lance Woodley Captures Repeat Business from Past Clients of 5, 10, 20 Years Ago using Video</p>
+                  <center>
+                    <a href="http://www.getvyral.com/2015/11/how-lance-woodley-captures-repeat.html" target="_blank">
+                      <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/successstory.jpg" width="600" alt="" />
+                    </a>
+                  </center>
+                <p align="left" class="panel"><i>"The cost is nominal if it helps clients buy investment properties, especially if they range between 800 to a million dollars. With the commission from that sale alone, I can hire Vyral Marketing for a decade..... Quite frankly, this is the most cost effective thing we do."</i><br><br>
+                –Vyral Client Lance Woodley</p><br>
+                <table class="button secondary" align="center">
+                  <tr>
+                    <td>
+                      <a href="http://www.getvyral.com/2015/11/how-lance-woodley-captures-repeat.html" target="_blank">
+                        See examples and full interview
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </table>
+          </tr>
+          </td>
+          <![endif]-->
+        </div>
+
+        <!-- Hangouts -->
+        <table class="wrapper hangout">
+          <tr>
+            <td>
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="600" align="center">
+                <tr>
+                <td>
+                <![endif]-->
+                <table class="outer">
+                  <tr>
+                    <td class="one-column">
+                        <table width="100%">
+                            <tr>
+                                <td class="inner contents">
+                                    <p class="h1" align="center">Hangouts On Air</p>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="left-sidebar">
+                      <!--[if (gte mso 9)|(IE)]>
+                      <table width="100%">
+                      <tr>
+                      <td width="300">
+                      <![endif]-->
+                      <table class="column left">
+                          <tr>
+                              <td class="inner contents">
+                                <a href="https://youtu.be/QRY9qJRB4OM" target="_blank">
+                                  <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/industry-partner-image.jpg" width="280" alt="Industry Partner of the Week Thumbnail" />
+                                </a>
+                              </td>
+                          </tr>
+                      </table>
+                      <!--[if (gte mso 9)|(IE)]>
+                      </td><td width="300">
+                      <![endif]-->
+                      <table class="column right">
+                          <tr>
+                              <td class="inner contents">
+                                <p class="h2" align="left">Industry Patner Interview of the Week</p>
+                                <p class="h3" align="left">Leveraged Lead Generation Hangout</p>
+                                <p align="left">In this replay, you will learn how David will do 30 Million this year converting FSBO's and Expired Leads.</p><br>
+
+                                <table class="button secondary" align="center">
+                                  <tr>
+                                    <td>
+                                      <a href="https://youtu.be/QRY9qJRB4OM" target="_blank">
+                                        Watch the full replay
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                          </tr>
+                      </table>
+                      <!--[if (gte mso 9)|(IE)]>
+                      </td>
+                      </tr>
+                      </table>
+                      <![endif]-->
+                    </td>
+                  </tr>
+                  <tr>
+                    <tr><td class="spacer"></td></tr>
+                    <tr>
+                      <td class="left-sidebar">
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table width="100%">
+                        <tr>
+                        <td width="300">
+                        <![endif]-->
+                        <table class="column left">
+                            <tr>
+                                <td class="inner contents">
+                                  <a href="https://youtu.be/dVI2vN_urcY" target="_blank">
+                                    <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/database-marketing-image.jpg" width="280" alt="Database Marketing Hangout Thumbnail" />
+                                  </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td><td width="300">
+                        <![endif]-->
+                        <table class="column right">
+                            <tr>
+                                <td class="inner contents">
+                                  <p class="h2" align="left">Database Marketing Hangout</p>
+                                  <p class="h3" align="left">How Realtor Matt Fetick Attracts Clients by Leveraging His Database</p>
+                                  <p align="left">In this replay, you will learn how David will do 30 Million this year converting FSBO's and Expired Leads.</p><br>
+
+                                  <table class="button secondary" align="center">
+                                    <tr>
+                                      <td>
+                                        <a href="https://youtu.be/dVI2vN_urcY" target="_blank">
+                                          Watch the full replay
+                                        </a>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                      </td>
+                    </tr>
+                    <tr>
+                      <tr><td class="spacer"></td></tr>
+                      <tr>
+                        <td class="left-sidebar">
+                          <!--[if (gte mso 9)|(IE)]>
+                          <table width="100%">
+                          <tr>
+                          <td width="300">
+                          <![endif]-->
+                          <table class="column left">
+                              <tr>
+                                  <td class="inner contents">
+                                    <a href="https://youtu.be/bRcvq4-pMAs" target="_blank">
+                                      <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/live-client-training-image.jpg" width="280" alt="Live Client Training Thumbnail" />
+                                    </a>
+                                  </td>
+                              </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td><td width="300">
+                          <![endif]-->
+                          <table class="column right">
+                              <tr>
+                                  <td class="inner contents">
+                                    <p class="h2" align="left">Live Client Training</p>
+                                    <p class="h3" align="left">The Perfect Video Blog for Lead Generation</p>
+                                    <p align="left">In this replay, you will learn how David will do 30 Million this year converting FSBO's and Expired Leads.</p><br>
+
+                                    <table class="button secondary" align="center">
+                                      <tr>
+                                        <td>
+                                          <a href="https://youtu.be/bRcvq4-pMAs" target="_blank">
+                                            Watch the full replay
+                                          </a>
+                                        </td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                              </tr>
+                          </table>
+                          <!--[if (gte mso 9)|(IE)]>
+                          </td>
+                          </tr>
+                          </table>
+                          <![endif]-->
+                        </td>
+                      </tr>
+                </table>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Mastermind -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="full-width-image">
+                <p class="h1" align="center">Bahamas Elite Real Estate Mastermind</p>
+                  <center>
+                    <a href="http://www.getvyral.com/p/mastermind.html" target="_blank">
+                      <img align="center" src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/bahamas1.jpg" width="600" alt="Bahamas Mastermind Image" />
+                    </a>
+                  </center>
+                <p align="center">Join us December 3-4, 2015 in Nassau Bahamas for a 2-day real estate mastermind.</p>
+                <p align="center" class="urgent">Only 5 tickets remaining</p><br>
+                <table class="button secondary" align="center">
+                  <tr>
+                    <td>
+                      <a href="http://www.getvyral.com/p/mastermind.html" target="_blank">
+                        Get all the details
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </table>
+          </tr>
+          </td>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- New Client Welcomes -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer">
+            <tr>
+              <td class="one-column">
+                <p class="h1">Welcome Our New Clients</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="three-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="200" valign="top">
+                <![endif]-->
+                <table class="column">
+                  <tr>
+                    <td class="inner">
+                      <table class="contents">
+                        <tr>
+                          <td>
+                            <a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+                              <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/New-Client-Welcome1.jpg" width="180" alt="New Client Welcome Image" />
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="text" align="center">
+                            <table class="button secondary">
+															<tr>
+																<td>
+																	<a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+																	Sue Langston
+																	</a>
+																</td>
+															</tr>
+														</table>
+														<span>Real Estate Professional</span><br>
+														<span>Wichita, Kansas</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="200" valign="top">
+                <![endif]-->
+                <table class="column">
+                  <tr>
+                    <td class="inner">
+                      <table class="contents">
+                        <tr>
+                          <td>
+                            <a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+                              <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/New-Client-Welcome1.jpg" width="180" alt="New Client Welcome Image" />
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="text">
+                            <table class="button secondary">
+															<tr>
+																<td>
+																	<a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+																	Sue Langston
+																	</a>
+																</td>
+															</tr>
+														</table>
+														<span>Real Estate Professional</span><br>
+														<span>Wichita, Kansas</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="200" valign="top">
+                <![endif]-->
+                <table class="column">
+                  <tr>
+                    <td class="inner">
+                      <table class="contents">
+                        <tr>
+                          <td>
+                            <a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+                              <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/New-Client-Welcome1.jpg" width="180" alt="New Client Welcome Image" />
+                            </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="text">
+                            <table class="button secondary">
+															<tr>
+																<td>
+																	<a href="http://www.getvyral.com/2015/11/welcome-new-client-sue-langston.html" target="_blank">
+																	Sue Langston
+																	</a>
+																</td>
+															</tr>
+														</table>
+														<span>Real Estate Professional</span><br>
+														<span>Wichita, Kansas</span>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- New Client Launch -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="full-width-image">
+                <p class="h1" align="center">New Client Launched</p>
+                  <center>
+                    <a href="http://www.getvyral.com/2015/11/were-excited-to-launch-new-client.html" target="_blank">
+                      <img align="center" src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/new-client-launch.jpg" width="450" alt="New Client Launch Image" />
+                    </a>
+                  </center>
+                <p align="center"><br>We're excited to launch the upgraded online presence of<br><b>Vyral Client Lazaro Martinez</b></p><br>
+                <table class="button secondary" align="center">
+                  <tr>
+                    <td>
+                      <a href="http://www.getvyral.com/2015/11/were-excited-to-launch-new-client.html" target="_blank">
+                        See what we built
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </table>
+          </tr>
+          </td>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Video of the week -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer">
+            <tr>
+              <td class="one-column">
+                <p class="h1">Video of the Week</p>
+                <p class="h2" align="center">Is Selling this Fall a good idea?</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="two-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td>
+                              <center>
+                                <a href="http://www.getvyral.com/2015/11/video-of-week-how-to-get-your-offer.html" target="_blank">
+                                  <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/11-21-15/votw.jpg" width="280" alt="Video of the Week Image" />
+                                </a>
+                              </center>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td class="text">
+                              <p class="panel" align="center"><i>Austin's real estate market is one of the most competitive in the country. Right now, seller's have the upper hand, as buyers are often finding themselves in multiple offer situations. These are stressful times to be a buyer, especially if you're not armed with the requisite knowledge to get your offer accepted. Luckily, we're here to help.</i></p><br>
+                              <p>Vyral Client Shawn Culhane in Cedar Park, TX  scored 20 out of 22 points on the perfect video checklist.</p><br>
+                              <table class="button secondary">
+																<tr>
+																	<td>
+																		<a href="http://www.getvyral.com/2015/11/video-of-week-how-to-get-your-offer.html" target="_blank">
+																			See the best client video
+																		</a>
+																	</td>
+																</tr>
+															</table>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Email of the week -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer">
+            <tr>
+              <td class="one-column">
+                <p class="h1">Email Topic of the Week</p>
+                <p class="h2" align="center">What You Need to know about Indian Leased Land in the Palm Springs Area</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="two-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td>
+                              <center>
+                              <a href="http://www.getvyral.com/2015/11/email-of-week-how-should-you-prepare.html" target="_blank">
+                                <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/11-21-15/eotw.jpg" width="280" alt="Email of the Week Image" />
+                              </a>
+                            </center>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td class="text">
+                              <p class="panel" align="center"><i>"If you're considering selling your home, there are a handful of things you need to do before you list. For one, you'll want to have a professional roofer inspect your roof. Many homeowners don't even think about it, but the roof problems can be awfully expensive and if there are problems with it, potential buyers might shy away."</i></p><br>
+                              <p>We’d like to congratulate Vyral Client Ron Wagener in Sun Lakes, AZ for having the best performing topic this week, achieving a 28% open rate and a 12% click rate.</p><br>
+                              <table class="button secondary">
+																<tr>
+																	<td>
+																		<a href="http://www.getvyral.com/2015/11/email-of-week-how-should-you-prepare.html" target="_blank">
+																			See the best client email
+																		</a>
+																	</td>
+																</tr>
+															</table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Testimonial of the Week -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="full-width-image">
+                <p class="h1" align="center">Gathered Testimonial of the Week</p>
+                <p class="h2" align="center">How We Helped Jeff Sell His Home with Excellent Marketing</p>
+                  <center>
+                    <a href="http://www.getvyral.com/2015/11/gathered-testimonial-of-week-how-we.html" target="_blank">
+                      <img align="center" src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/gathered-testimonial.jpg" width="450" alt="Gathered Testimonial of the Week" />
+                    </a>
+                  </center>
+                <p class="panel" align="center"><i>"They were extremely thorough, and did a great job marketing our property! They were excellent to work with and always kept us in the loop. If I had a question and left a message for them, Greg or Eileen would call me back within minutes! They even threw a "Bon Voyage" party for us and invited the whole neighborhood. They were very accommodating and outstanding throughout the process."</i></p><br>
+                <p>We'd like to congratulate <b>Vyral Client Greg McDaniel</b> on a great customer success story we gathered for him to add to his website.</p><br>
+                <table class="button secondary" align="center">
+                  <tr>
+                    <td>
+                      <a href="http://www.getvyral.com/2015/11/gathered-testimonial-of-week-how-we.html">
+                        Listen to the audio testimonial
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Employee Spotlight -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer">
+            <tr>
+              <td class="one-column">
+                <p class="h1">Vyral Marketing Employee Spotlight</p>
+                <p class="h2" align="center">Chris Dryden</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="two-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td>
+                              <center>
+                              <a href="http://www.getvyral.com/2015/11/employee-spotlight-chris-dryden.html" target="_blank">
+                                <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/test-assets/spotlight.jpg" width="280" alt="" />
+                              </a>
+                            </center>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td class="text">
+                              <p class="panel" align="center"><i>"I see opportunity and leadership that invests in their employees. I think employees have to be willing to match that investment, but I also see a set of core values that I can believe in and a mission statement that I align with. I think the leadership here empowers us to move beyond our limitations and they give us the resources to do so."</i><br><br>–Vyral Employee Chris Dryden</p><br>
+                              <table class="button secondary">
+                                <tr>
+                                  <td>
+                                    <a href="http://www.getvyral.com/2015/11/employee-spotlight-chris-dryden.html" target="_blank">
+                                      See the full interview
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Referrals -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" align="center">
+            <tr>
+              <td class="contents">
+                <p class="h1" align="center">Referrals</p>
+                <p class="h2" align="center">Thank you to all who referred us this past week</p><br>
+                <p align="center"><b>Lars Hedenborg</b> introduced us to <b>David Caggiano</b></p>
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <hr>
+
+        <!-- Sponsors -->
+        <div class="webkit">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="600" align="center">
+          <tr>
+          <td>
+          <![endif]-->
+          <table class="outer" style="padding-bottom: 60px;">
+            <tr>
+              <td class="one-column">
+                <p class="h1">Our Sponsors</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="two-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td>
+                              <center>
+                              <a href="http://www.1000callsaday.com" target="_blank">
+                                <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/1000calls.gif" width="280" alt="1000callsaday.com" />
+                              </a>
+                            </center>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td class="text">
+                              <p class="panel" align="center">"This week we made 27,278 calls, 2,491 contacts, and passed over 73 people to our clients who were interested in speaking with them."</p><br>
+                              <table class="button secondary">
+                                <tr>
+                                  <td>
+                                    <a href="http://www.1000callsaday.com" target="_blank">
+                                      Hire a calling assistant
+                                    </a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+            <tr><td class="spacer"></td></tr>
+            <tr>
+              <td class="two-column">
+                <!--[if (gte mso 9)|(IE)]>
+                <table width="100%">
+                <tr>
+                <td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td>
+                              <center>
+                              <a href="http://www.financeofamerica.com/" target="_blank">
+                                <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/foa.jpg" width="280" alt="Finance of America Logo" />
+                              </a>
+                            </center>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td><td width="50%" valign="top">
+                <![endif]-->
+                <div class="column">
+                  <table width="100%">
+                    <tr>
+                      <td class="inner">
+
+                        <table class="contents">
+                          <tr>
+                            <td class="text">
+                              <p class="panel" align="center">Finance of America will pay up to half of your Vyral Marketing fee as long as you mention them in your videos or your marketing.</p><br>
+                              <p>Contact Jay Moderski and he will partner you with your local loan officer:</p><br>
+                              <table class="button secondary">
+                                <tr>
+                                  <td>
+                                        <a align="center" href="mailto:jmoderski@financeofamerica.com">jmoderski@financeofamerica.com</a>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+                <!--[if (gte mso 9)|(IE)]>
+                </td>
+                </tr>
+                </table>
+                <![endif]-->
+              </td>
+            </tr>
+          </table>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
+        <!-- Header -->
+        <table class="wrapper footer">
+          <tr>
+            <td>
+
+              <table class="outer" align="center">
+                <tr>
+                  <td class="one-column">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                    <tr>
+                    <td width="50%" valign="top">
+                    <![endif]-->
+                    <div class="column">
+                      <table width="100%">
+                        <tr>
+                          <td class="inner">
+
+                            <table class="contents">
+                              <tr>
+                                <td>
+                                  <a href="http://www.getvyral.com" target="_blank">
+                                  <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/core-assets/vyral-logo.gif" width="100" alt="Vyral Marketing Logo" />
+                                  </a>
+                                </td>
+                                <td style="vertical-align:middle;">
+																<a href="https://www.facebook.com/VyralMarketing" target="_blank">
+																	<center><img src="https://goo.gl/d6MuQa" height="25px" alt="Facebook"/></center>
+																</a>
+															</td>
+                              <td tyle="vertical-align:middle;">
+                              <a href="https://www.youtube.com/user/VyralMarketingPlan" target="_blank">
+                                <center><img src="https://goo.gl/xX4yR0" height="25px" alt="YouTube"/></center>
+                              </a>
+                            </td>
+                            <td style="vertical-align:middle;">
+																<a href="https://plus.google.com/+GetVyralMarketing/posts" target="_blank">
+																	<center><img src="https://goo.gl/gJjuAU" height="25px" alt="Google Plus"/></center>
+																</a>
+															</td>
+                              </tr>
+                            </table>
+
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+                <tr>
+                  <td class="one-column">
+                    <p class="footer">You are receiving this weekly newsletter because you're a client, you've requested information, or you're a friend or connection of our team at Vyral Marketing.</p>
+										<p class="footer"><a class="footer" href="https://goo.gl/g3GXG1" target="_blank"><u>Click here to Unsubscribe</u></a></p>
+										<p class="footer" align="center">Vyral Marketing - 3205 S. 90th St. #202 Omaha, Nebraska 68134</p>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,847 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--[if !mso]><!-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+<style>
+  /* Basics */
+  .padded {
+    padding: 10px;
+  }
+  body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #eee;
+  }
+  table.background {
+    background: #260c40;
+  }
+  table.background-two {
+    background: #561548;
+  }
+  table.background-three {
+    background: #623a82;
+  }
+  table.background-four {
+    background: #976bae;
+  }
+  .light {
+    color: #eee !important;
+  }
+  table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333;
+  }
+  td {
+    padding: 0;
+  }
+  img {
+    border: 0;
+  }
+  .wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  .webkit {
+    max-width: 600px;
+  }
+  .outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  .full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  .full-width-image p {
+    font-size: 14px;
+    padding: 0px;
+  }
+  .inner {
+    padding: 10px;
+  }
+  p {
+    Margin: 0;
+    font-size: 15px;
+    padding: 5px;
+  }
+  .button a {
+    color: #fff;
+    text-decoration: none;
+  }
+  ol,
+  ul {
+    font-size: 15px;
+  }
+  a {
+    color: #ffa50a;
+    text-decoration: none;
+  }
+  .h1 {
+    font-size: 28px !important;
+    font-weight: 100;
+  /*Margin-top: 10px;*/
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+  }
+  .h2 {
+    font-size: 20px !important;
+    font-weight: normal;
+    Margin-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #124062;
+  }
+  .h3 {
+    font-size: 16px !important;
+    Margin-bottom: 12px;
+    font-weight: bold;
+  }
+  /* One column layout */
+  .one-column .contents {
+    text-align: left;
+  }
+  .one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
+  }
+  /*Two column layout*/
+  .two-column {
+    text-align: center;
+    font-size: 0;
+  }
+  .two-column .column {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .four-column .contents {
+    text-align: center;
+    font-size: 12px;
+    color: #eee;
+    height: 300px;
+    vertical-align: top;
+  }
+  .four-column .column {
+    width: 100%;
+    max-width: 140px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .contents {
+    width: 100%;
+  }
+  .two-column .contents {
+    font-size: 14px;
+    text-align: center;
+    color: #eee;
+    height: 200px;
+  }
+  .two-column .contentshead {
+    font-size: 14px;
+    text-align: center;
+    color: #eee;
+  }
+  .two-column {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+  }
+  .two-column .text {
+    padding-top: 10px;
+  }
+  /*Three column layout*/
+  .three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .three-column .contents {
+    font-size: 14px;
+    text-align: center;
+  }
+  .three-column img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+  }
+  .three-column .text {
+    padding-top: 10px;
+  }
+  .header {
+    background: #260c40;
+    color: #fff;
+  }
+  .headerCTA {
+    padding-bottom: 10px;
+  }
+  .footer {
+    background: #124062;
+    color: #fff;
+  }
+  table.button td {
+    padding: 10px 30px;
+    color: #fff;
+    Margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #eee;
+  }
+  table.secondary td {
+    background: #ffa50a !important;
+    border-color: #ffa50a;
+    border-radius: 0;
+    color: #eee;
+    padding: 10px 30px;
+    Margin: 10px;
+    text-align: center;
+  }
+  table.secondary td a {
+    color: #eee;
+  }
+  table.secondary:hover td {
+    background: #dc7b0d !important;
+    color: #eee;
+  }
+  table.secondary:hover td a,
+  table.secondary td a:visited,
+  table.secondary:active td a {
+    color: #eee !important;
+  }
+  hr {
+    color: #ccc;
+    background-color: #d9d9d9;
+    height: 1px;
+    border: none;
+    Margin-top: 10px;
+    Margin-bottom: 10px;
+  }
+  /* Left sidebar layout */
+  .left-sidebar {
+    text-align: left;
+    font-size: 0;
+  }
+  .left-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .left-sidebar .left {
+    max-width: 100px;
+  }
+  .left-sidebar .right {
+    max-width: 500px;
+  }
+  .left-sidebar .img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+  .cta {
+    padding: 10px;
+    color: #eee;
+  }
+  .left-sidebar .contents {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+  }
+  /* Right sidebar layout */
+  .right-sidebar {
+    text-align: center;
+    font-size: 0;
+  }
+  .right-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .right-sidebar .left {
+    max-width: 80px;
+  }
+  .right-sidebar .right {
+    max-width: 500px;
+  }
+  .right-sidebar .img {
+    width: 100%;
+    max-width: 80px;
+    height: auto;
+  }
+  .right-sidebar .contents {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px;
+  }
+  .panel {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    padding: 10px !important;
+    Margin-top: 10px;
+    Margin-left: 10px;
+    Margin-right: 10px;
+  }
+  .hangout {
+    background: #f2f2f2;
+    border: 1px solid #d9d9d9;
+    Margin-top: 60px;
+    padding-top: 40px;
+    Margin-bottom: 60px;
+    padding-bottom: 70px;
+  }
+  .spacer {
+    padding: 30px;
+  }
+  .urgent {
+    color: #f00;
+    font-size: 16px !important;
+  }
+  .footer {
+    color: #d8d8d8;
+    font-size: 12px !important;
+    padding: 10px;
+  }
+  .text-left {
+    padding: 10px;
+    background: #eee;
+  }
+  .text-right {
+    padding: 10px;
+    background: #dbdbdb;
+  }
+  /*Media Queries*/
+  @media screen and (max-width: 400px) {
+    .two-column .column,
+    .three-column .column {
+      max-width: 100% !important;
+    }
+    .two-column img {
+      max-width: 100% !important;
+    }
+    .three-column img {
+      max-width: 50% !important;
+    }
+  }
+  @media screen and (min-width: 401px) and (max-width: 620px) {
+    table.button td {
+      padding: 10px 10px !important;
+    }
+    .three-column .column {
+      max-width: 33% !important;
+    }
+    .two-column .column {
+      max-width: 50% !important;
+    }
+  }
+  @media only screen and (max-width: 599px) {
+    div[class="pattern"] video,
+    div[class="pattern"] img {
+      width: 100%;
+      height: auto !important;
+    }
+  }
+
+</style>
+</head>
+<body>
+    <center class="wrapper">
+      <!-- Header -->
+      <table class="wrapper header">
+        <tr>
+          <td>
+
+            <table class="outer" align="center">
+              <tr>
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+
+                          <table class="contentshead">
+                            <tr>
+                              <td>
+
+                                  <a href="http://mapscoaching.kw.com/" target="_blank">
+                                    <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/kwMAPS_Coaching_Logo_RGB-rev.png" height="50" alt="KW Maps Coaching Logo" />
+                                  </a>
+
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        <td align="right"><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/header_grphic.png" height="100px"/></td>
+        </tr>
+      </table>
+      <a href="https://youtu.be/VGit5qHFjgE" target="_blank">
+      <div class="pattern">
+      <video muted="muted" loop="loop" style="padding: 0px; margin: 0px; display: block;" poster="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/KW-MAPS-Coaching-video-still.jpg" height="auto" width="100%" autoplay>
+      <source src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/KWMAPSCoachingvideobanner.mp4" type="video/mp4"></source>
+      <img style="display: block;" border="0" src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/KW-MAPS-Coaching-video-still.jpg" width="100%" height="auto" label="Fallback Image" />
+      </video>
+      </div>
+      </a>
+      <table class="wrapper background">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="inner contents">
+                  <p class="h1">GET RESULTS AND STAY ACCOUNTABLE WITH KW MAPS COACHING</p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <div class="webkit">
+        <!--[if (gte mso 9)|(IE)]>
+        <table width="600" align="center">
+        <tr>
+        <td>
+        <![endif]-->
+        <table class="outer">
+          <tr>
+            <td>
+              <table class="one-column">
+                <tr>
+                  <td class="inner contents">
+                    <br>
+                    <p>I want to ensure that you understand how important it is to hire a coach to help grow your real estate business. A real estate coach is a lot like a fitness trainer. You're always more inclined to go to the gym at five in the morning when you have a trainer there waiting for you. Unless you're very dedicated, I'm guessing that you wouldn't get up and get out of bed. It's the accountability that forces you to action, and that's a big part of MAPS Coaching.</p>
+
+                      <p>Tim Heyl, one of our highest-producing agents and coaching clients, told us that his coach gives him assignments and keeps him accountable every week. A couple of our other clients have some amazing stories as well, such as Sarita Dua, who went from $18 million to $30.5 million in production in just one year with our coaching. Diane Griffin, a KW agent out of Grand Rapids, took her production from $28 million to $48 million!</p>
+
+                      <p>With these types of results, your coaching is practically already paid for!</p>
+
+                      <p>Our coaches know that performance equals potential minus interference. They know that interference comes from limiting beliefs in your life that do not serve you. Our coaches will hold your feet to the fire to get you leads and leverage your strengths to make your business soar. These coaches have been exactly where you are right now. They've all sold real estate, and they've all been through the same dilemmas that you're finding yourself in. Your coach understands the business and they're here to help you navigate right through it.</p>
+
+                      <p>Allow us to remove your interference and get you to the performance that you desire!</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]
+        </table>
+        </tr>
+        </td>
+        <![endif]-->
+      </div>
+      <table class="outer">
+        <tr>
+          <td>
+            <center>
+            <table align="center" class="secondary">
+              <tr>
+                <td>
+                  <a href="http://mapscoaching.kw.com/" target="_blank">
+                  SEE WHAT WE CAN DO FOR YOU
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </center>
+            <br><br>
+          </td>
+        </tr>
+      </table>
+      <table class="wrapper background-two">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="inner contents" align="center">
+                  <p class="h1 light">How Brett Tanner Utilized MAPS<br>to Improve His Career</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="full-width-image">
+                  <center>
+                    <a href="https://youtu.be/yuqVSp7mfTY" target="_blank">
+                      <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/bretttanners-mapstestimonial.jpg" style="border: 1px solid #777777;"  width="100%" alt="" />
+                    </a>
+                  </center>
+                </td>
+              </tr>
+        <tr>
+          <td class="inner contents">
+              <p class="cta">"My coach spends a lot of time talking about leadership and how I lead my team. This has actually created a lot of balance in my life because my kids are 6, 4, and 2. Being a better leader at work has allowed me to also be a better father because I have more time to spend outside of work."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;– Brett Tanner</p>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+      <table class="wrapper background-two">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="inner contents" align="center">
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <a href="https://youtu.be/yuqVSp7mfTY" target="_blank">
+                        See to the full testimonial
+                      </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <br>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- <table class="wrapper background-three">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="inner contents" align="center">
+                  <p class="h1 light">New Client Interview with John Wolf</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="full-width-image">
+                  <center>
+                    <a href="https://soundcloud.com/vyral-marketing/johnwolf-edited-1" target="_blank">
+                      <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/John-wolf-sc.png" width="100%" style="border: 1px solid #777777;" alt="" />
+                    </a>
+                  </center>
+                </td>
+              </tr>
+        <tr>
+          <td class="inner contents">
+            <p class="cta">
+              "Why hire MAPS? My trust in trustworthy people. Mo Anderson, Vice Chairman of Keller Williams, told me herself that BOLD is so effective that she wishes it could be required for every new agent. Gary Keller provides solid proven advice and he suggests BOLD 10 times. My friend Jason Grotelueschen, and six time BOLD graduate, encouraged me to join BOLD. When? My first MAPS BOLD was June of 2015 during real estate school. I signed up for the second one before becoming a licensed agent. I signed up for Mastery Coaching during Mega Camp, which was two days BEFORE my first day as an agent. These services give you a great deal of clarity and clarity is power." &nbsp;&nbsp;&nbsp;&nbsp;– John Wolf
+            </p>
+          </td>
+        </tr>
+      </table>
+      <table class="wrapper background-three">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="inner contents" align="center">
+                  <table class="button">
+                    <tr>
+                      <td>
+                        <a href="https://soundcloud.com/vyral-marketing/johnwolf-edited-1" target="_blank">
+                        Listen to the full interview
+                      </a>
+                      </td>
+                    </tr>
+                  </table>
+                  <br>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table> -->
+      <table class="outer">
+        <tr>
+          <td>
+            <p class="h1" style="color: #000;"><br>
+              Which coaching program is right for you?
+            </p><center>
+            <table align="center" class="secondary">
+              <tr>
+                <td>
+                  <a href="http://mapscoaching.kw.com/node/71" target="_blank">
+                  START NOW
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </center>
+            <br><br>
+          </td>
+        </tr>
+      </table>
+      <table class="wrapper background cta">
+        <tr>
+          <td>
+            <table class="outer">
+              <tr>
+                <td class="one-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="100%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td>
+                          <table class="contents background cta">
+                            <tr>
+                              <td>
+                                <center>
+                                  <a href="http://mapscoaching.kw.com/mastery" target="_blank">
+                                <img src="http://mapscoaching.kw.com/sites/all/themes/maps/images/logos/hm_mastery_logo.png" width="150" alt="KW Maps Mastery" />
+                              </a>
+                              </center>
+                                <p align="center">Designed for those willing and ready to TAKE their CAREER to the TOP of the real estate INDUSTRY.</p>
+                                <center>
+                                <table align="center" class="button">
+                                  <tr>
+                                    <td>
+                                      <a href="http://mapscoaching.kw.com/mastery" target="_blank">
+                                      Learn More
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </center>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="100%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td>
+
+                          <table class="contents background-two cta">
+                            <tr>
+                              <td>
+                                <center>
+                                  <a href="http://mapscoaching.kw.com/breakthrough">
+                                <img src="http://mapscoaching.kw.com/sites/all/themes/maps/images/logos/hm_breakthrough_logo.png" width="150" alt="KW Maps Breakthrough" />
+                                </a>
+                              </center>
+                                <p align="center">
+                                  MAXIMIZE your profits in this game-changing program that will quickly BOOST your BOTTOM LINE and move you beyond your barriers.
+                                </p>
+                                <center>
+                                <table align="center" class="button">
+                                  <tr>
+                                    <td>
+                                      <a href="http://mapscoaching.kw.com/breakthrough" target="_blank">
+                                      Learn More
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </center>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="25%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td>
+
+                          <table class="contents background-three cta">
+                            <tr>
+                              <td>
+                                <center>
+                                  <a href="http://mapscoaching.kw.com/group" target="_blank">
+                                <img src="http://mapscoaching.kw.com/sites/all/themes/maps/images/logos/hm_group_logo.png" width="150" alt="KW Maps Group" />
+                                </a>
+                              </center>
+                                <p align="center">
+                                  ACCELERATE your PRODUCTION with new mindsets, language patterns, systems and models.
+                                </p>
+                                <center>
+                                <table align="center" class="button">
+                                  <tr>
+                                    <td>
+                                      <a href="http://mapscoaching.kw.com/group" target="_blank">
+                                      Learn More
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </center>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="25%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td>
+
+                          <table class="contents background-four cta">
+                            <tr>
+                              <td>
+                                <center>
+                                  <a href="http://mapscoaching.kw.com/bold" target="_blank">
+                                <img src="http://mapscoaching.kw.com/sites/all/themes/maps/images/logos/hm_bold_logo.png" width="150" alt="KW Maps BOLD" />
+                                </a>
+                              </center>
+                                <p align="center">
+                                  Choose ABUNDANCE for YOUR life. Embark on a LIFE-CHANGING transformation during this seven-week JOURNEY by creating a Life by Design.
+                                </p>
+                                <center>
+                                <table align="center" class="button">
+                                  <tr>
+                                    <td>
+                                      <a href="http://mapscoaching.kw.com/bold" target="_blank">
+                                      Learn More
+                                      </a>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </center>
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </td>
+                <!-- <td class="inner contents">
+                  <p class="h1">GET RESULTS AND STAY ACCOUNTABLE WITH KW MAPS COACHING</p>
+                </td> -->
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table class="wrapper header">
+        <tr>
+          <td>
+
+            <table class="outer" align="center">
+              <tr>
+                <td class="two-column">
+                  <!--[if (gte mso 9)|(IE)]>
+                  <table width="100%">
+                  <tr>
+                  <td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+
+                          <table class="contentshead">
+                            <tr>
+                              <td>
+
+                                  <a href="http://mapscoaching.kw.com/" target="_blank">
+                                    <img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/kwMAPS_Coaching_Logo_RGB-rev.png" height="50" alt="KW Maps Coaching Logo" />
+                                  </a>
+
+                              </td>
+                            </tr>
+                          </table>
+
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                  <!--[if (gte mso 9)|(IE)]>
+                  </td><td width="50%" valign="top">
+                  <![endif]-->
+                  <div class="column">
+                    <table width="100%">
+                      <tr>
+                        <td class="inner">
+
+                          <table class="contentshead" align="right">
+                            <tr>
+                              <td align="right">
+                                <a href="https://www.facebook.com/mapscoaching" target="_blank"><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/facebook.png" alt="KW Maps Facebook"/>&nbsp;</a>
+                              </td>
+                              <td>
+                                <a href="https://twitter.com/MAPSCoaching" target="_blank"><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/twitter.png" alt="KW Maps Twitter" />&nbsp;</a>
+                              </td>
+                              <td>
+                                <a href="https://www.youtube.com/user/KWMAPSCoaching" target="_blank"><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/youtube.png" alt="KW Maps YouTubr" />&nbsp;</a>
+                              </td>
+                              <td>
+                                <a href="http://instagram.com/mapscoaching" target="_blank"><img src="https://s3.amazonaws.com/vyralmarketing/vyral-marketing/newsletter+assets/maps-coaching/instagram.png" alt="KW Maps Instagram" />&nbsp;</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+</center>
+</body>
+</html>

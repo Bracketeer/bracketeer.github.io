@@ -1,0 +1,14 @@
+# Site settings
+title: Brent Stradling
+name: Brent Stradling
+phone: 402-320-6766
+email: brent.stradling@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+linkedin_username: brentstradling
+twitter_username: brent_is_online
+github_username: bracketeer
+codepen_username: bracketeer
+# Build settings
+markdown: kramdown
